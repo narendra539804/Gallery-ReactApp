@@ -2,4 +2,4 @@
 
 <h4>Download the code and type "npm start" command and it starts in your localhost </h4>
 
-<img src="../Screenshots/Screenshot1.png">
+<img src="../Screenshorts/Screenshot1.png">
