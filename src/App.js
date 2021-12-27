@@ -38,6 +38,7 @@ const App = () => {
             type="text"
             onChange={changeHandler}
             value={search}
+            placeholder="Enter the item you want to search"
           />
           <br />
           <br />
