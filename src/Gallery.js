@@ -1,3 +1,4 @@
+//jshint esnext:true
 import React from 'react'
 
 const Gallery = ({data}) => {

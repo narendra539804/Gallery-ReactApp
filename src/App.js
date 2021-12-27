@@ -1,3 +1,4 @@
+//jshint esnext:true
 import React,{useEffect,useState} from 'react';
 import axios from 'axios';
 import Gallery from './Gallery';
@@ -10,7 +11,7 @@ const App = () => {
     },[])
   const changeHandler = e =>{
     setSearch(e.target.value);
-  }
+  };
   const submitHandler = e =>{
     e.preventDefault();
     axios
@@ -26,7 +27,7 @@ const App = () => {
         error
       );
   })
-  }
+  };
   return (
     <div>
       <center>
